@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/image/fondo.jpg);
+}
+header{
+    background-color: rgb(21, 87, 230);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+.logo{
+    color:  white;
+    font-size: 40px;
+}
+.barra ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.barra a:hover{
+    color: gray;
+}
+#atm-container {
+    background-color: #1754d9d6;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#screen {
+    background-color: #0000005e;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#controls button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0000005e;
+    color: #fff;
+    font-size: 16px;
+}
+
+#controls button:hover {
+    background-color: #777;
+}
+footer{
+    background-color: black;
+    height: 150px;
+}
+footer p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
